@@ -515,7 +515,8 @@ os.path.join(os.getenv('USERPROFILE'), 'Downloads')
 #     os.chdir(oldpath)
 #     return last_file[0]
 
-
+import os
+print os.getcwd()
 lis=[9,3,1,5,7,94,3,2,11,-90,-34]
 print sorted(lis)
 print sorted(lis,key=abs,reverse=True)
